@@ -14,6 +14,11 @@
 		3F9014F72ACC41F500AABB63 /* Lab1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9014F62ACC41F500AABB63 /* Lab1Tests.swift */; };
 		3F9015012ACC41F500AABB63 /* Lab1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015002ACC41F500AABB63 /* Lab1UITests.swift */; };
 		3F9015032ACC41F500AABB63 /* Lab1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015022ACC41F500AABB63 /* Lab1UITestsLaunchTests.swift */; };
+		3F9015122ACC459700AABB63 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015112ACC459700AABB63 /* CalculatorView.swift */; };
+		3F9015162ACC482000AABB63 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015152ACC482000AABB63 /* Calculations.swift */; };
+		3F9015182ACC48BD00AABB63 /* CalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015172ACC48BD00AABB63 /* CalcButton.swift */; };
+		3F90151A2ACC4E2600AABB63 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015192ACC4E2600AABB63 /* SubmitButton.swift */; };
+		3F90151C2ACC4EC300AABB63 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90151B2ACC4EC300AABB63 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		3F9014FC2ACC41F500AABB63 /* Lab1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9015002ACC41F500AABB63 /* Lab1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1UITests.swift; sourceTree = "<group>"; };
 		3F9015022ACC41F500AABB63 /* Lab1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F9015112ACC459700AABB63 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		3F9015152ACC482000AABB63 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		3F9015172ACC48BD00AABB63 /* CalcButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButton.swift; sourceTree = "<group>"; };
+		3F9015192ACC4E2600AABB63 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		3F90151B2ACC4EC300AABB63 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,11 @@
 				3F9014E72ACC41F400AABB63 /* ContentView.swift */,
 				3F9014E92ACC41F500AABB63 /* Assets.xcassets */,
 				3F9014EB2ACC41F500AABB63 /* Preview Content */,
+				3F9015112ACC459700AABB63 /* CalculatorView.swift */,
+				3F9015152ACC482000AABB63 /* Calculations.swift */,
+				3F9015172ACC48BD00AABB63 /* CalcButton.swift */,
+				3F9015192ACC4E2600AABB63 /* SubmitButton.swift */,
+				3F90151B2ACC4EC300AABB63 /* ResultView.swift */,
 			);
 			path = Lab1;
 			sourceTree = "<group>";
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9015182ACC48BD00AABB63 /* CalcButton.swift in Sources */,
+				3F90151A2ACC4E2600AABB63 /* SubmitButton.swift in Sources */,
+				3F9015122ACC459700AABB63 /* CalculatorView.swift in Sources */,
 				3F9014E82ACC41F400AABB63 /* ContentView.swift in Sources */,
 				3F9014E62ACC41F400AABB63 /* Lab1App.swift in Sources */,
+				3F90151C2ACC4EC300AABB63 /* ResultView.swift in Sources */,
+				3F9015162ACC482000AABB63 /* Calculations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
