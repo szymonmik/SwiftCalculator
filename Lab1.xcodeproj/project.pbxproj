@@ -19,6 +19,8 @@
 		3F9015182ACC48BD00AABB63 /* CalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015172ACC48BD00AABB63 /* CalcButton.swift */; };
 		3F90151A2ACC4E2600AABB63 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9015192ACC4E2600AABB63 /* SubmitButton.swift */; };
 		3F90151C2ACC4EC300AABB63 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90151B2ACC4EC300AABB63 /* ResultView.swift */; };
+		3FE2D4F62AD57BCA0097091B /* OperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2D4F52AD57BCA0097091B /* OperationsTests.swift */; };
+		3FE2D4F82AD580360097091B /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2D4F72AD580360097091B /* CalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		3F9015172ACC48BD00AABB63 /* CalcButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButton.swift; sourceTree = "<group>"; };
 		3F9015192ACC4E2600AABB63 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 		3F90151B2ACC4EC300AABB63 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		3FE2D4F52AD57BCA0097091B /* OperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsTests.swift; sourceTree = "<group>"; };
+		3FE2D4F72AD580360097091B /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				3F9014F62ACC41F500AABB63 /* Lab1Tests.swift */,
+				3FE2D4F52AD57BCA0097091B /* OperationsTests.swift */,
+				3FE2D4F72AD580360097091B /* CalculatorTests.swift */,
 			);
 			path = Lab1Tests;
 			sourceTree = "<group>";
@@ -287,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9014F72ACC41F500AABB63 /* Lab1Tests.swift in Sources */,
+				3FE2D4F82AD580360097091B /* CalculatorTests.swift in Sources */,
+				3FE2D4F62AD57BCA0097091B /* OperationsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
